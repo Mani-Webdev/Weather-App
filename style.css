@@ -5,7 +5,14 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #222;
+   background-color:#b5ffd8;
+}
+center{
+    margin-top: 10px;
+    color:white;
+    padding: 10px;
+    margin-top: 0;
+    background-color: black;
 }
 .card{
     width: 40%;
