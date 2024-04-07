@@ -89,3 +89,37 @@ body{
     font-size: 18px;
     display: none;
 }
+
+/* Media Query for smaller screens */
+@media (max-width: 425px) {
+    .card {
+        width: 90%;
+        padding: 40px 10px; /* Adjusted padding for responsiveness */
+    }
+    
+    .search input {
+        width: 90%;
+        padding: 5px 5px; /* Adjusted padding for responsiveness */
+    }
+    .weather-icon{
+        width: 140px;
+        margin-top: 20px;
+    }
+    .weather h1 {
+        font-size: 40px; /* Adjusted font size for responsiveness */
+    }
+    .weather h2 {
+        font-size: 25px; /* Adjusted font size for responsiveness */
+    }
+    .details{
+        padding: 0 10px;
+    }
+    .col img{
+        width: 35px;
+        margin-right: 5px;
+    }
+    .humidity, .wind{
+        font-size: 18px;
+        margin-top: -6px;
+    }
+}
